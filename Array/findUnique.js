@@ -1,10 +1,14 @@
-function findUnique(array){
-    var uniqueValue=[];
-    for(let i =0;i=array.length-1;i++){
-        if(array[i+1]!==array[i]){
-            uniqueValue.push(array[i])
+
+function uniqueArray2(arr) {
+    var a = [];
+    for (let i=0;i<arr.length-1; i++)
+        if (a.indexOf(arr[i]) === -1 && arr[i] !== ''){
+            a.push(arr[i]);
         }
-    }
-    return uniqueValue;
+          
+    return a;
 }
-console.log("unique value is",findUnique([1,1,2,3,4,5,5,6]))
+console.log("unique value is",uniqueArray2([1,1,2,3,4,5,5,6]))
+
+
+
