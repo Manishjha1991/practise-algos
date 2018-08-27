@@ -4,7 +4,8 @@ var http = require('http');
 // require('./Array/arrayDuplicate.js');
 // require('./Array/findUnique.js');
 // require('./Array/missingNumberInArray')
-require('./Array/FindLargestSmallestNumber')
+// require('./Array/FindLargestSmallestNumber')
+require('./Array/sumOfElement')
 
 
 
