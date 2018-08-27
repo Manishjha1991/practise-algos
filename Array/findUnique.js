@@ -2,6 +2,7 @@
 function uniqueArray2(arr) {
     var a = [];
     for (let i=0;i<arr.length-1; i++)
+      
         if (a.indexOf(arr[i]) === -1 && arr[i] !== ''){
             a.push(arr[i]);
         }

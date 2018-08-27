@@ -2,7 +2,8 @@ var http = require('http');
 
 //require('./asyncAwaitAndPromise.js');
 // require('./Array/arrayDuplicate.js');
-require('./Array/findUnique.js');
+// require('./Array/findUnique.js');
+require('./Array/missingNumberInArray')
 
 
 
